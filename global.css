@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(12, 12, 12);
+    color: rgba(255,255,255, 0.8);
+    gap: 16px;
+    display: flex;
+}
+
+header {
+    border: solid salmon 2px;
+    border-radius: 2px;
+    gap: 8px;
+    width: 40vw;
+}
+
+header .flex {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+h1, h2 {
+    text-align: center;
+}
+ul {
+    margin-left: -16px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: fit-content auto;
+    gap: 8px;
+    border-radius: 2px;
+    border: solid salmon 2px;
+}
+main h2 {
+    font-size: 32px;
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
